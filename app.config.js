@@ -13,6 +13,10 @@ export default {
       firebaseStorageBucket: process.env.FIREBASE_STORAGE_BUCKET,
       firebaseMessagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
       firebaseAppId: process.env.FIREBASE_APP_ID
-    }
+    },
+    web: {
+        "favicon": "./assets/favicon.png"
+      }
   }
+
 };
